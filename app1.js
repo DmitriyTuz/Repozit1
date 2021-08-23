@@ -6,5 +6,6 @@ let model = {name: "Dima"};
 console.log(db[model.name]);
 db[model.name] = model;
 console.log('***db*** = ', db);
+// Hello
 console.log(db.Dima.name);
 console.log(db.Dima);
